@@ -6,11 +6,11 @@
  */
 void print_alphabet(void)
 {
-char alphabet[27] = "abcdefghijklmnopqrstuvwxyz\n";
-int i;
+char ch;
 
-for (i = 0; i < 27; i++)
+for (ch = 'a'; ch <= 'z'; ch++)
 {
-_putchar(alphabet[i]);
+_putchar(ch);
 }
+_putchar('\n');
 }
