@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <limits.h>
 
 /**
  * _atoi - convert a string to an integer
@@ -26,7 +27,12 @@ int _atoi(char *s)
 		else if (*s >= '0' && *s <= '9')
 		{
 			started = 1;
-			result = result * 10 + (*s - 48);
+			if (result > (INT_MAX - (*s - '0')) / 10)
+			{
+				/* Overflow condition */
+				return (sign == 1 ? INT_MAX : INT_MIN);
+			}
+			result = result * 10 + (*s - '0');
 		}
 		else if (started)
 		{
