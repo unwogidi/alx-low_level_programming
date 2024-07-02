@@ -26,7 +26,7 @@ int _atoi(char *s)
 		else if (*s >= '0' && *s <= '9')
 		{
 			started = 1;
-			result = result * 10 + (*s - '0');
+			result = result * 10 + (*s - 48);
 		}
 		else if (started)
 		{
