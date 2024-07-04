@@ -12,6 +12,8 @@ char *string_toupper(char *);
 char *cap_string(char *);
 /*int is_separator(char c);*/
 char *leet(char *);
+int _putchar(char c);
+void print_number(int n);
 
 
 #endif /* MAIN_H */
