@@ -17,7 +17,7 @@ int _sqrt_find(int n, int i)
 	{
 		return (i);
 	}
-	return _sqrt_find(n, i + 1);
+	return (_sqrt_find(n, i + 1));
 }
 
 
