@@ -1,0 +1,1 @@
+This folder contains libraries and header files used to create a static library file libmy.a
