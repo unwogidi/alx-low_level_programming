@@ -1,0 +1,1 @@
+Dynamic allocation of memory in C programming using malloc and free functions
