@@ -1,0 +1,1 @@
+Practical exercises on the use of functions such as malloc, free, and exit in dynamic memory allocations
