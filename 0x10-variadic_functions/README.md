@@ -1,0 +1,1 @@
+How to implement variadic function and va_start, va_arg and va_end macros
