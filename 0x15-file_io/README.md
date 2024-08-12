@@ -1,0 +1,1 @@
+The use of File I/O descriptor to create, open, read, write and close files
